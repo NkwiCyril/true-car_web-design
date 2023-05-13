@@ -1,5 +1,79 @@
 * {
     padding: 0;
     margin: 0;
-    border: 1px solid black;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid red;
+}
+
+
+/* ------------------------------------------------ */
+/* ------------------- Header --------------------- */
+header {
+    background-color: black;
+    color: #fcfcfc;
+    position: fixed;
+    width: 100%;
+    height: fit-content;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.logo {
+    float: left;
+}
+
+span {
+    color: #ec4141;
+}
+
+nav {
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+li {
+    display: inline;
+    padding: 0 10px;
+}
+
+li:hover {
+    border-bottom: 3px solid red;
+    height: 2px;
+    transition: all 0.2s ease;
+    width: 100%;
+}
+.search {
+    border-radius: 20px;
+    width: 12rem;
+    height: 37px;
+    padding-left: 10px;
+}
+.search:active {
+    border: 1px solid red;
+}
+
+.sign-up {
+    margin-left: 10px;
+    border-left: 1px solid #fcfcfc;
+    padding-left: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+/* ------------------------------------------------- */
+/* -------------------- Hero section ---------------- */
+
+.hero {
+    
 }
