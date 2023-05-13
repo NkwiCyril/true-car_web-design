@@ -87,7 +87,8 @@ li:hover {
     background-color: black;
     background-size: 100%;
     background-image: url(cars/Space\ Roadstar.jpg);
-}
+    clip-path: rect(0, 100px, 100%, 100%);
+} 
 .about {
     width: 35%;
     /* margin: 12rem auto; */
