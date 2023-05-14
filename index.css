@@ -82,12 +82,12 @@ li:hover {
 
 .hero {
     width: 100%;
-    height: 37rem;
+    height: 40rem;
     color: white;
     background-color: black;
     background-size: 100%;
     background-image: url(cars/Space\ Roadstar.jpg);
-    clip-path: rect(0, 100px, 100%, 100%);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, .5);
 } 
 .about {
     width: 35%;
