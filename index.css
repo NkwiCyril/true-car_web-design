@@ -52,7 +52,7 @@ li {
 }
 
 li:hover {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid white;
     height: 2px;
     transition: all 0.2s ease;
     width: 100%;
@@ -87,7 +87,6 @@ li:hover {
     background-color: black;
     background-size: 100%;
     background-image: url(cars/Space\ Roadstar.jpg);
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, .5);
 } 
 .about {
     width: 35%;
