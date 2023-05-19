@@ -69,37 +69,43 @@
             </aside>
 
             <aside class="aside aside-right">
-                <span id="price"><b>XAF28,172</b></span>
+                <span id="price"><span>$</span> 28,172</span>
                 <p>Est. buying power</p>
-                <p>Based on 7.13% APR</p>
+                <p class="percent">Based on 7.13% APR</p>
 
-                <select name="car-type" id="car-type" title="Looking for">
-                    <option value="used">
-                        <p>Looking for</p>
-                        Used Car
-                    </option>
-                    <option value="new">
-                        New Car
-                    </option>
-                </select>
+                <div class="filter filter1">
+                    <select name="car-type" id="car-type">
+                        <option value="used">
+                            Used Car
+                        </option>
+                        <option value="new">
+                            New Car
+                        </option>
+                    </select>
 
-                <input type="text">
+                    <input type="text" placeholder="Down payment">
+                </div>
 
-                <input type="text">
+                <div class="filter filter2">
+                    <select name="credit-score" id="credit-score">
+                        <option value="score1">500 - 550</option>
+                        <option value="score2">600 - 650</option>
+                        <option value="score3">700 - 750</option>
+                        <option value="score4">800 - 850</option>
+                    </select>
 
-                <select name="credit-score" id="credit-score">
-                    <option value="score1">500 - 550</option>
-                    <option value="score2">600 - 650</option>
-                    <option value="score3">700 - 750</option>
-                    <option value="score4">800 - 850</option>
-                </select>
+                    <input type="text" placeholder="Monthly payment">
 
-                <label class="switch">
-                    <input type="checkbox">
-                    <span class="slider round"></span>
-                </label>
+                </div>
 
-                <button>See your matches</button>
+                <div class="slidebar">
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                    <p>Include trade-in</p>
+                </div>
+                <button class="btn">See your matches</button>
 
             </aside>
         </div>
