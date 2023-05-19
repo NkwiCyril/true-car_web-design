@@ -3,9 +3,12 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* ------------------------------------------------ */
 /* ------------------- Header --------------------- */
@@ -156,4 +159,54 @@ li:hover {
         font-size: 40px;
     }
 
+}
+
+/* ============== */
+/* Section two  */
+
+.car-filter {
+    background-color: white;
+}
+
+.position {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 80%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: 0 30px;
+}
+
+.aside-left div {
+    background-color: #00adee80;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    color: #343434;
+    width: fit-content;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.aside-left h1 {
+    font-size: 30px;
+
+}
+
+.aside-left p {
+    line-height: 22px;
+    font-size: 16px;
+}
+
+.aside-left img {
+    width: 100%;
+    
 }
