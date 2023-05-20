@@ -17,7 +17,7 @@ header {
     color: #fcfcfc;
     position: fixed;
     width: 100%;
-    height: fit-content;
+    height: 4rem;
     display: flex;
     align-items: center;
 }
@@ -49,20 +49,20 @@ ul {
 
 li {
     display: inline;
-    padding: 0 10px;
+    margin: 0 10px;
     cursor: pointer;
 }
 
 li:hover {
-    text-decoration: underline;
+    border-bottom: 2px solid #e7e5e5;
     transition: all 0.2s ease;
 }
 
 .search {
-    border-radius: 20px;
+    border-radius: 25px;
     width: 12rem;
-    height: 37px;
-    padding-left: 10px;
+    height: 45px;
+    padding: 20px 15px 20px 44px;
     border: none;
 }
 
@@ -87,27 +87,26 @@ li:hover {
     color: white;
     background-color: black;
     background-size: 100%;
-    background-image: url(cars/Space\ Roadstar.jpg);
+    background-image: url(cars/g-wagon2.jpg);
 }
 
 .about {
     width: 35%;
-    /* margin: 12rem auto; */
     text-align: center;
     margin: auto;
     padding-top: 12rem;
 }
 
 .about h1 {
-    font-size: 35px;
+    font-size: 40px;
     color: white;
 }
 
 .search1 {
+    border-radius: 25px;
     width: 90%;
-    border-radius: 20px;
-    height: 37px;
-    padding-left: 10px;
+    height: 45px;
+    padding: 20px 15px 20px 44px;
     margin: 23px 0px;
     border: 1px solid white;
 }
@@ -130,6 +129,9 @@ li:hover {
 }
 
 @media screen and (max-width: 768px) {
+    header {
+        height: fit-content;
+    }
     .content {
         flex-direction: column;
         text-align: center;
@@ -140,6 +142,11 @@ li:hover {
         text-align: center;
         margin-bottom: 5px;
         font-size: 15px;
+    }
+
+    li:hover {
+        text-decoration: underline;
+        border-bottom: none;
     }
 
     .about {
