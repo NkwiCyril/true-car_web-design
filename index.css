@@ -76,6 +76,8 @@ li:hover {
 
 .sign-up:hover {
     color: rgb(177, 174, 174);
+    transition: all .2s ease-in-out;
+
 }
 
 /* ------------------------------------------------- */
@@ -125,13 +127,14 @@ li:hover {
 }
 
 .option h4:hover {
-    border-bottom: 2px solid #ec4141;
+    border-bottom: 2px solid black;
 }
 
 @media screen and (max-width: 768px) {
     header {
         height: fit-content;
     }
+
     .content {
         flex-direction: column;
         text-align: center;
@@ -172,13 +175,12 @@ li:hover {
 /* Section two  */
 
 .car-filter {
-    background-color: #f9f8f8;
+    background-color: #f5f5f5;
 
 }
 
 .position {
     display: flex;
-    flex: 1;
     flex-direction: row;
     margin: 0 180px;
     max-width: 80%;
@@ -274,14 +276,14 @@ li:hover {
     border-radius: 5px;
     padding: 0px 5px;
     display: flex;
-    
+
 }
 
 .filter1 {
     padding-top: 25px;
     border-top: 1px outset #e7e5e5;
     justify-content: space-between;
-    
+
 }
 
 .filter2 {
@@ -307,17 +309,17 @@ li:hover {
     width: 60px;
     height: 34px;
     margin-right: 10px;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
+}
+
+/* Hide default HTML checkbox */
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
-  
-  /* The slider */
-  .slider {
+}
+
+/* The slider */
+.slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -327,9 +329,9 @@ li:hover {
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-  .slider:before {
+}
+
+.slider:before {
     position: absolute;
     content: "";
     height: 26px;
@@ -339,36 +341,36 @@ li:hover {
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  
-  input:checked + .slider {
+}
+
+input:checked+.slider {
     background-color: #2196F3;
-  }
-  
-  input:focus + .slider {
+}
+
+input:focus+.slider {
     box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
+}
+
+input:checked+.slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
+}
+
+/* Rounded sliders */
+.slider.round {
     border: 1px solid none;
     border-radius: 34px;
     padding-bottom: 0;
-  }
-  
-  .slider.round:before {
+}
+
+.slider.round:before {
     border-radius: 50%;
-  }
+}
 
-  /* See your matches button */
+/* See your matches button */
 
-  .btn {
+.btn {
     width: 75%;
     height: 35px;
     color: white;
@@ -380,9 +382,84 @@ li:hover {
     border: none;
     cursor: pointer;
     margin-bottom: 35px;
-  }
+}
 
-  .btn:hover {
+.btn:hover,
+.btn1:hover,
+.btn2:hover {
     color: black;
     background-color: #a3a0a0;
-  }
+    transition: all .2s ease-in-out;
+}
+
+/* FEATURES SECTION */
+
+.car-filter h1 {
+    text-align: center;
+}
+
+.features1 {
+    display: flex;
+    flex-direction: row;
+    margin: 0 180px;
+    max-width: 80%;
+    padding: 2rem 0px;
+    margin-bottom: 50px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 50px 50px 15px 50px;
+}
+
+.feature h2 {
+    font-size: 27px;
+    padding: 20px;
+}
+
+.feature p {
+    color: #707070;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.feature-left {
+    width: 60%;
+    margin-right: 2.5px;
+    padding-top: 110px;
+    text-align: center;
+    align-items: center;
+}
+
+.feature-right {
+    width: 60%;
+    margin-left: 2.5px;
+    text-align: center;
+    align-items: center;
+}
+
+.feature-right img {
+    width: 30%;
+}
+
+.btn1,
+.btn2 {
+    height: 35px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+
+}
+
