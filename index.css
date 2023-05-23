@@ -329,6 +329,7 @@ li:hover {
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
+    
 }
 
 .slider:before {
@@ -348,7 +349,7 @@ input:checked+.slider {
 }
 
 input:focus+.slider {
-    box-shadow: 0 0 1px #2196F3;
+    box-shadow: 0 0 1px #727475;
 }
 
 input:checked+.slider:before {
@@ -418,7 +419,6 @@ input:checked+.slider:before {
     background-color: white;
     border-radius: 5px;
     padding: 50px 50px 15px 50px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
 }
 
 .feature h2 {
@@ -459,10 +459,6 @@ input:checked+.slider:before {
     margin-bottom: 20px;
     padding: 10px 20px;
 
-}
-
-#trade-image {
-    width: 50%;
 }
 
 
