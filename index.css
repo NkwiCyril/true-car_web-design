@@ -73,6 +73,13 @@ li:hover {
     padding-left: 15px;
     font-size: 12px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.sign-up .fas {
+    font-size: 20px;
+    margin-left: 7px;
 }
 
 .sign-up:hover {
@@ -267,6 +274,7 @@ li:hover {
     width: 75%;
     display: flex;
     flex-direction: row;
+    padding: auto 5px;
 }
 
 .filter select,
@@ -443,6 +451,11 @@ input:checked+.slider:before {
 
 .feature-right img {
     width: 30%;
+}
+
+#trade-image {
+    width: 80%;
+    margin-bottom: 55px;
 }
 
 .btn1,

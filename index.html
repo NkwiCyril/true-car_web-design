@@ -1,148 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Poppins:wght@200;300;400&family=Sofia+Sans+Semi+Condensed:wght@200;400;500&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Poppins:wght@200;300;400&family=Sofia+Sans+Semi+Condensed:wght@200;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Sofia+Sans+Semi+Condensed:wght@200;400;500&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&family=Sofia+Sans+Semi+Condensed:wght@200;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <title>Official Car Website</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- Header section -->
     <header>
-        <div class="content">
-            <div class="logo">
-                <h1>True<span>Car</span></h1>
-            </div>
-            <nav>
-                <ul>
-                    <li>New</li>
-                    <li>Used</li>
-                    <li>Research</li>
-                    <li>Sell Your Car</li>
-                </ul>
-            </nav>
-            <input type="search" placeholder="Search" name="Search" class="search">
-            <div class="sign-up">
-                <h2>Sign up</h2>
-            </div>
+      <div class="content">
+        <div class="logo">
+          <h1>True<span>Car</span></h1>
         </div>
+        <nav>
+          <ul>
+            <li>New</li>
+            <li>Used</li>
+            <li>Research</li>
+            <li>Sell Your Car</li>
+          </ul>
+        </nav>
+
+        <input
+          type="search"
+          placeholder="Search"
+          name="Search"
+          class="search"
+        />
+        <div class="sign-up">
+          <h2>Sign up</h2>
+          <i class="fas fa-user-astronaut"></i>
+        </div>
+      </div>
     </header>
     <!-- hero section  -->
     <!-- First section -->
     <section class="hero">
-        <div class="about">
-            <div class="hero-content">
-                <h1>Car buying</h1>
-                <h1>shaped to your life</h1>
-                <input type="search" placeholder="Search make, model or type" class="search1">
-            </div>
-            <div class="option">
-                <h4>Shop New</h4>
-                <h4>Shop Used</h4>
-            </div>
+      <div class="about">
+        <div class="hero-content">
+          <h1>Car buying</h1>
+          <h1>shaped to your life</h1>
+          <input
+            type="search"
+            placeholder="Search make, model or type"
+            class="search1"
+          />
         </div>
+        <div class="option">
+          <h4>Shop New</h4>
+          <h4>Shop Used</h4>
+        </div>
+      </div>
     </section>
 
     <!-- Second section -->
     <section class="car-filter">
-        <div class="position">
-            <aside class="aside aside-left">
-                <div>
-                    NEW
-                </div>
-                <h1>Know your buying power</h1>
-                <p>What car price can you afford? Find out, then see vehicles that match your budget</p>
-                <img src="/cars/site-car1.png" alt="car image">
-            </aside>
+      <div class="position">
+        <aside class="aside aside-left">
+          <div>NEW</div>
+          <h1>Know your buying power</h1>
+          <p>
+            What car price can you afford? Find out, then see vehicles that
+            match your budget
+          </p>
+          <img src="/cars/site-car1.png" alt="car image" />
+        </aside>
 
-            <aside class="aside aside-right">
-                <span id="price"><span>$</span> 28,172</span>
-                <p>Est. buying power</p>
-                <p class="percent">Based on 7.13% APR</p>
+        <aside class="aside aside-right">
+          <span id="price"><span>$</span> 28,172</span>
+          <p>Est. buying power</p>
+          <p class="percent">Based on 7.13% APR</p>
 
-                <div class="filter filter1">
-                    <select name="car-type" id="car-type">
-                        <option value="used">
-                            Used Car
-                        </option>
-                        <option value="new">
-                            New Car
-                        </option>
-                    </select>
+          <div class="filter filter1">
+            <select name="car-type" id="car-type">
+              <option value="used">Used Car</option>
+              <option value="new">New Car</option>
+            </select>
 
-                    <input type="text" placeholder="Down payment">
-                </div>
+            <input type="text" placeholder="Down payment" />
+          </div>
 
-                <div class="filter filter2">
-                    <select name="credit-score" id="credit-score">
-                        <option value="score1">500 - 550</option>
-                        <option value="score2">600 - 650</option>
-                        <option value="score3">700 - 750</option>
-                        <option value="score4">800 - 850</option>
-                    </select>
+          <div class="filter filter2">
+            <select name="credit-score" id="credit-score">
+              <option value="score1">500 - 550</option>
+              <option value="score2">600 - 650</option>
+              <option value="score3">700 - 750</option>
+              <option value="score4">800 - 850</option>
+            </select>
 
-                    <input type="text" placeholder="Monthly payment">
+            <input type="text" placeholder="Monthly payment" />
+          </div>
 
-                </div>
+          <div class="slidebar">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+            <p>Include trade-in</p>
+          </div>
+          <button class="btn">See your matches</button>
+        </aside>
+      </div>
+      <h1>Featured Tools</h1>
+      <div class="features1">
+        <aside class="feature feature-left">
+          <img src="cars/find-your-fit.png" alt="jeep" />
+          <h2>Find your fit</h2>
+          <p>
+            Not sure what you want? Answer a few questions to find what fits you
+            best.
+          </p>
+          <button class="btn1">Start quiz</button>
+        </aside>
 
-                <div class="slidebar">
-                    <label class="switch">
-                        <input type="checkbox">
-                        <span class="slider round"></span>
-                    </label>
-                    <p>Include trade-in</p>
-                </div>
-                <button class="btn">See your matches</button>
+        <aside class="feature feature-right">
+          <img src="cars/shop-by-budget.png" alt="piggy-back" />
+          <h2>Shop by budget</h2>
+          <p>
+            Save time and narrow down cars that fit your monthly payment and
+            price point.
+          </p>
+          <button class="btn2">See your buying power</button>
+        </aside>
 
-            </aside>
+        <aside class="feature feature-left">
+          <img
+            src="cars/build-and-price.png"
+            alt="build and price image"
+            id="build-image"
+          />
+          <h2>Build and price</h2>
+          <p>Choose the make, model, trim and options you want.</p>
+          <button class="btn1">Build your car</button>
+        </aside>
+
+        <aside class="feature feature-right">
+          <img
+            src="cars/sell-and-trade.png"
+            alt="handing over key"
+            id="trade-image"
+          />
+          <h2>Sell and trade</h2>
+          <p>Get an offer in minutes, then cash out or trade in.</p>
+          <button class="btn2">Learn more</button>
+        </aside>
+      </div>
+    </section>
+
+    <section class="advert">
+        <div class="car">
+            
         </div>
-        <h1>Featured Tools</h1>
-        <div class="features1">
-            <aside class="feature feature-left">
-                <img src="cars/find-your-fit.png" alt="jeep">
-                <h2>Find your fit</h2>
-                <p>Not sure what you want? Answer a few questions to find what fits you best.</p>
-                <button class="btn1">Start quiz</button>
-            </aside>
+        <div class="cart">
 
-            <aside class="feature feature-right">
-                <img src="cars/shop-by-budget.png" alt="piggy-back">
-                <h2>Shop by budget</h2>
-                <p>Save time and narrow down cars that fit your monthly payment and price point.</p>
-                <button class="btn2">See your buying power</button>
-            </aside>
-
-             <aside class="feature feature-left">
-                <img src="cars/build-and-price.png" alt="build and price image" id="build-image">
-                <h2>Build and price</h2>
-                <p>Choose the make, model, trim and options you want.</p>
-                <button class="btn1">Build your car</button>
-            </aside>
-
-            <aside class="feature feature-right">
-                <img src="cars/sell-and-trade.png" alt="handing over key" id="trade-image">
-                <h2>Sell and trade</h2>
-                <p>Get an offer in minutes, then cash out or trade in.</p>
-                <button class="btn2">Learn more</button>
-            </aside>               
-
+        </div>
+        <div class="gift">
 
         </div>
     </section>
-
-</body>
-
+  </body>
 </html>
