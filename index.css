@@ -3,13 +3,16 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    /* border: 1px solid red; */
+    /* border: 1px solid white; */
 }
 
 html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: #f5f5f5;
+}
 /* ------------------------------------------------ */
 /* ------------------- Header --------------------- */
 header {
@@ -63,7 +66,11 @@ li:hover {
     border-radius: 25px;
     width: 12rem;
     height: 45px;
-    padding: 20px 15px 20px 44px;
+    padding: 20px 0px 20px 20px;
+    border: none;
+}
+
+.search:focus {
     border: none;
 }
 
@@ -83,7 +90,7 @@ li:hover {
 }
 
 .sign-up:hover {
-    color: rgb(177, 174, 174);
+    color: #b1aeae;
     transition: all .2s ease-in-out;
 
 }
@@ -182,10 +189,10 @@ li:hover {
 /* ============== */
 /* Section two  */
 
-.car-filter {
+/* .car-filter {
     background-color: #f5f5f5;
 
-}
+} */
 
 .position {
     display: flex;
@@ -474,4 +481,71 @@ input:checked+.slider:before {
 
 }
 
+/* advert section for user to sign-up */
 
+.advert {
+    max-width: 100%;
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 35rem;
+    margin-bottom: 20px !important;
+}
+
+.advert h1 {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.svg {
+    width: 15rem;
+    height: auto;
+}
+
+.svg h1 {
+    margin: 10px auto;
+    font-size: 20px;
+
+}
+
+.svg p {
+    font-size: 15px;
+}
+
+.communique {
+    display: flex;
+    gap: 6.5rem;
+    text-align: center;
+}
+
+.advert button {
+    border-radius: 35px;
+    padding: 10px 35px;
+    border: none;
+    margin-top: 50px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.advert button:hover {
+    background-color: #a3a0a0;
+}
+
+/* section for the different car brands whether used or old */
+
+.brands {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px auto;
+}
+
+.option .type {
+    display: flex;
+    border-radius: 20px;
+    padding: 5px;
+}
