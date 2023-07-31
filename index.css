@@ -541,11 +541,36 @@ input:checked+.slider:before {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50px auto;
+    margin: 50px auto;
+}
+
+.brands h1 {
+    margin: 30px;
+}
+
+.brands .option {
+    background-color: #e1dede;
+    border-radius: 22px;
+    padding: 4px;
+
 }
 
 .option .type {
     display: flex;
     border-radius: 20px;
-    padding: 5px;
+    border: none;
+    padding: 3px 29px;
+    background-color: #e1dede;
+    /* color: white; */
+    font-size: 17px;
+}
+
+.option .new {
+    margin-right: -5px;
+    cursor: pointer;
+}
+
+.option .used {
+    margin-left: -5px;
+    cursor: pointer;
 }
