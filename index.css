@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    /* border: 1px solid white; */
+    border: 1px solid #000;
 }
 
 html {
@@ -537,22 +537,22 @@ input:checked+.slider:before {
 /* section for the different car brands whether used or old */
 
 .brands {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     margin: 50px auto;
 }
 
 .brands h1 {
+    text-align: center;
     margin: 30px;
 }
 
 .brands .option {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
     background-color: #e1dede;
     border-radius: 22px;
     padding: 4px;
-
+    margin-bottom: 30px;
 }
 
 .option .type {
@@ -561,13 +561,14 @@ input:checked+.slider:before {
     border: none;
     padding: 3px 29px;
     background-color: #e1dede;
-    /* color: white; */
     font-size: 17px;
 }
 
 .option .new {
     margin-right: -5px;
     cursor: pointer;
+    background: #000;
+    color: #fff;
 }
 
 .option .used {
