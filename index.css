@@ -6,10 +6,6 @@
     /* border: 1px solid #000; */
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     background-color: #f5f5f5;
 }
@@ -492,7 +488,6 @@ input:checked+.slider:before {
     align-items: center;
     justify-content: center;
     height: 35rem;
-    margin-bottom: 20px !important;
 }
 
 .advert h1 {
@@ -537,12 +532,15 @@ input:checked+.slider:before {
 /* section for the different car brands whether used or old */
 
 .brands {
-    margin: 50px auto;
+    background-color: #fff;
+    margin: 10px 45px;
+    border-radius: 5px;
 }
 
 .brands h1 {
     text-align: center;
-    margin: 30px;
+    padding: 60px;
+    /* border: 1px solid #000; */
 }
 
 .brands .option {
@@ -574,4 +572,49 @@ input:checked+.slider:before {
 .option .used {
     margin-left: -5px;
     cursor: pointer;
+}
+
+.cars {
+    margin: 0 70px 40px 70px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 4px 3px 7px 0px rgba(0,0,0,0.1);
+    height: 6rem;
+}
+
+.cars img {
+    width: 15%;
+    object-fit: cover;
+    padding: 0 5px;
+}
+
+.brand span {
+    font-size: 16px;
+}
+
+.see-more {
+    width: fit-content;
+    border: 2px solid #000;
+    border-radius: 30px;
+    margin: 1rem  auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 34px;
+}
+
+
+.see-more img {
+    width: 30px;
+    margin: 0px 1px;
 }
