@@ -579,7 +579,6 @@ input:checked+.slider:before {
     display: grid;
     gap: 25px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
 }
 
 .brand {
